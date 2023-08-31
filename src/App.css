@@ -36,3 +36,581 @@
     transform: rotate(360deg);
   }
 }
+
+#playstation-nav{
+
+  background-color: #000000;
+}
+
+
+.carousel-indicators{
+  
+}
+
+/* In your App.css or a separate CSS file */
+#sm-pic {
+
+  opacity: 1; /* Default opacity */
+  transition: opacity 0.3s;
+  transition: .3s; /* Add a smooth transition effect */
+}
+
+/* On hover, reduce the opacity of all images with the 'sm-pic' class except the one being hovered over */
+#sm-pic:hover {
+  opacity: 0.6; /* Reduced opacity when hovering */
+
+ transform: scale(1.02);
+  transition: .3s;
+  box-shadow: 0px 12px 10px 0px rgb(147, 145, 145) ;
+}
+
+/* Remove the opacity setting for the #collection */
+#collection {
+  opacity: 0.9;
+}
+
+#collection img:hover {
+  opacity: 1;
+ 
+  transition: 1s;
+}
+
+#collection img {
+  transition: 0.5s; /* Add a transition for smooth effect */
+}
+
+
+#img1{
+  opacity: 0.6;
+
+  box-shadow: 2em;
+}
+
+
+
+.plus-body{
+  
+ background-image: url('./Body-Component/PlusImages/Background.webp');
+ background-repeat: no-repeat;
+ background-size: cover ;
+} 
+.plus-logo{
+width: 450px; 
+height: 200px; 
+margin-left: 2em; 
+margin-top: 5em;
+}
+.game{
+
+  background-image: url('./Body-Component/PlusImages/Game.webp');
+  background-repeat: no-repeat;
+background-size: 100%;  
+
+}
+
+.square-div{
+  width: 400px;
+  height: 220px;
+
+  border-radius: 20px;
+}
+
+#month-div{
+
+  background-image: url('./Body-Component/Monthimages/lowercover2.webp');
+background-repeat: no-repeat;
+background-size: contain;
+background-color: #292252;
+
+}
+
+#s1:hover , #s2:hover  , #s3:hover{
+  transform: scale(1.02);
+  transition:  .2s;
+  
+  filter: blur(.4px);
+  box-shadow: 0px 2px 10px 0px black;
+}
+
+#s1{
+  background-image: url('./Body-Component/Monthimages/lower1.webp');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: .2s;
+}
+
+
+#s2{
+  background-image: url('./Body-Component/Monthimages/lower2.webp');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: .2s;
+
+}
+
+#s3{
+  background-image: url('./Body-Component/Monthimages/lower3.webp');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: .2s;
+
+}
+
+
+#monthbtn{
+  border-radius: 20px;
+  
+}
+
+
+.gow-body {
+  background-image: url('./Body-Component//Gow-images/gowbg.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-color: #1f1f1f;
+  ;
+  min-height: 600px; /* Set a minimum height to ensure the background is visible */
+
+  
+}
+
+
+
+.carousel-control-nextt {
+  position: absolute;
+  right: 0 !important;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: .5;
+  transition: opacity .15s ease;
+}
+
+.carousel-control-prevv {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: .5;
+  transition: opacity .15s ease;
+}
+
+
+.carousel-control-prev-iconn {
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23fff%27%3e%3cpath d=%27M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z%27/%3e%3c/svg%3e") !important;
+}
+
+.carousel-control-prev-iconn {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+}
+
+
+.carousel-control-next-iconn {
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23fff%27%3e%3cpath d=%27M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z%27/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-iconn {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+}
+
+
+.ps4{
+
+  height: 400px;
+  
+}
+
+.ps4-content{
+
+  margin-top: 15em;
+  height: 160px;
+ 
+}
+
+
+#ps4-1{
+
+  background-image: url('./Body-Component/Exploreimages/ps41.webp');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#ps4-2{
+
+  background-image: url('./Body-Component/Exploreimages/ps42.webp');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+#ps4-3{
+
+  background-image: url('./Body-Component/Exploreimages/ps43.webp');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+#ps4btn{
+
+  border-radius: 50px;
+}
+
+#ps4head{
+
+height: 130px;
+
+
+
+}
+
+#media-head{
+
+  height: 100px;
+margin-top: 5em;
+
+padding-top: 2em;
+
+}
+
+.media{
+
+  height: 250px;
+  
+
+
+}
+
+#media-1{
+
+  padding-left: 4em;
+}
+
+
+#media-2{
+
+  padding-left: 3em;
+}
+
+#media-3{
+
+  padding-left: 3em;
+}
+
+
+#media-4{
+
+  padding-left: 4em;
+}
+
+
+#mediaimg1 , #mediaimg2, #mediaimg3, #mediaimg4{
+
+  transition: .2s;
+}
+
+#mediaimg1:hover , #mediaimg2:hover, #mediaimg3:hover, #mediaimg4:hover{
+  transform: scale(1.10);
+
+  transition: .2s;
+ 
+}
+
+
+#ps4container{
+  background-color: rgb(240, 239, 239);
+}
+
+#footlogo{
+
+  height: 80px;
+
+}
+
+#footbody{
+
+  background-color: #00439c;
+}
+
+
+.foot-hr{
+
+  border-top: 1px solid rgb(220, 219, 219);
+}
+
+
+
+
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  position: relative;
+}
+
+.input {
+  border-style: none;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  outline: none;
+  border-radius: 50%;
+  transition: .5s ease-in-out;
+  background-color: #000000;
+  box-shadow: 0px 0px 3px #f3f3f3;
+  padding-right: 40px;
+  color: #fff;
+}
+
+.input::placeholder,
+.input {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 17px;
+}
+
+.input::placeholder {
+  color: #8f8f8f;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  border-style: none;
+  border-radius: 50%;
+  pointer-events: painted;
+  background-color: transparent;
+  transition: .2s linear;
+}
+
+.icon:focus ~ .input,
+.input:focus {
+  box-shadow: none;
+  width: 250px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 3px solid #3b63f5;
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.games-part{
+
+  height: 150px;
+  
+  transition: 0.2s;
+  
+}
+
+.games-part:hover{
+
+  transform: scale(1.01);
+  transition: 0.2s;
+ 
+  box-shadow: 0px 12px 10px 0px rgb(173, 166, 166)
+}
+
+#ps5{
+  background-image: url('./Body-Component/Exploreimages/ps41.webp');
+  background-repeat: no-repeat;
+  background-size: 230px;
+  background-position-x:-40px ;
+}
+
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+  .gow-body {
+    background-image: url('./Body-Component//Gow-images/gowmobbg.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 600px; /* Set a minimum height to ensure the background is visible */
+  
+
+    
+  }
+
+  #bigimg{
+
+    
+    width: 460px;
+
+  }
+
+  .square-div{
+    margin-left: 3em;
+    width: 345px;
+    height: 220px;
+  
+    border-radius: 20px;
+  }
+
+  #month-div{
+
+    background-image: url('./Body-Component/Monthimages/lowermobview.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    min-height: 600px; 
+
+
+  }
+
+  .month-content{
+
+    padding-top: 18em;
+    width: 100%;
+    height: 500px;
+  }
+
+  #text1{
+
+
+    
+    text-align: center;
+  }
+
+  #text2{
+
+    text-align: center;
+    font-size: 13px;
+
+  }
+
+  #monthbtn{
+    
+    margin-left: 7.3em;
+  }
+
+  .gow-img{
+
+    width: 60%;
+    height: 160px !important;
+  }
+
+  .gow-logo{
+
+    text-align: center;
+  }
+
+  .plus-logo{
+
+    margin-top: -10px;
+    margin-bottom:30px;
+
+
+    
+  }
+#ps4prods{
+
+  margin-top: 4em;
+
+
+
+  }
+
+  #content-1{
+
+    padding-top: 10px;
+
+    text-align: center;
+
+
+  }
+
+  #content-2{
+
+    
+
+    text-align: center;
+
+
+  }
+
+  #content-3{
+
+    
+
+    text-align: center;
+
+
+  }
+
+  #ps4head{
+
+    margin-top: 4em;
+  }
+
+  .media{
+      height: 150px;
+    
+
+
+  }
+
+  #media-2{
+   
+    padding-left: 3.5em;
+  }
+
+  #media-3{
+
+    padding-left: 3.5em;
+  }
+
+  #media-4{
+
+    padding-left: 3.5em;
+  }
+
+  
+
+  #last-foot{
+    
+    margin-top: 3em; 
+
+    width: 1000px;
+  }
+
+
+ 
+
+
+}

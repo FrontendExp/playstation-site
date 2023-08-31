@@ -1,0 +1,145 @@
+#minibg{
+
+    background-color: #161616;
+  }
+  
+  
+  #mini1:hover , #mini2:hover , #mini3:hover , #mini4:hover , #mini5:hover , #mini6:hover , #mini7:hover , #mini8:hover , #mini9:hover , #mini10:hover , #mini11:hover , #mini12:hover{
+    transform: scale(1.1);
+   transition: all .2s;
+   
+   filter: blur(.4px);
+   box-shadow: 0px 2px 10px 0px black;
+  
+  }
+  
+  
+  .mini-carousel{
+  
+    width: 190px;
+    height: 180px;
+   transition: .2s;
+   margin: 10px;
+   box-shadow: 0px 2px 10px 0px black;
+  border-radius: 10px;
+  }
+  
+  #mini1{
+    background-image: url('./Miniimages/g1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  
+  #mini2{
+    background-image: url('./Miniimages/g2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #mini3{
+    background-image: url('./Miniimages/g3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #mini4{
+    background-image: url('./Miniimages/g4.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #mini5{
+    background-image: url('./Miniimages/g5.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #mini6{
+    background-image: url('./Miniimages/g6.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #mini7{
+    background-image: url('./Miniimages/g7.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #mini8{
+    background-image: url('./Miniimages/g8.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x:-65px ;
+  }
+  
+  #mini9{
+    background-image: url('./Miniimages/g9.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #mini10{
+    background-image: url('./Miniimages/g10.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #mini11{
+    background-image: url('./Miniimages/g11.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #mini12{
+    background-image: url('./Miniimages/g12.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  button.carousel-control-next {
+     
+    height: 50px;
+    width: 50px;
+      left: 96% !important;
+  
+    background-color: white !important;
+    border-radius: 50px;
+  }
+  
+  button.carousel-control-prev {
+    background: white;
+    
+    border-radius: 50px;
+  
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 91.5% !important;
+    
+  
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%0%27%3e%3cpath d=%27M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z%27/%3e%3c/svg%3e") !important;
+    
+  }
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%230%27%3e%3cpath d=%27M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z%27/%3e%3c/svg%3e") !important;
+  }
+
+
+
+  @media screen and (max-width: 768px){
+
+    button.carousel-control-next {
+left: 80% !important;
+    }
+
+    button.carousel-control-prev {
+        left: 68% !important;
+            }
+
+  }

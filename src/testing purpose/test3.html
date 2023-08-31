@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Largest Value Arrangement</title>
+</head>
+
+<body>
+    <h2>Largest Value Arrangement</h2>
+    <input id="numberInput" type="text" placeholder="Enter numbers separated by commas">
+    <button onclick="arrangeLargestValue()">Arrange</button>
+    <p id="result"></p>
+
+    <script>
+        function arrangeLargestValue() {
+            var input = document.getElementById('numberInput').value;
+            var numbers = input.split(',').map(Number);
+
+            var largestValueArrangement = numbers.sort(function (a, b) {
+                var ab = a.toString() + b.toString();
+                var ba = b.toString() + a.toString();
+                return parseInt(ba) - parseInt(ab);
+            }).join('');
+
+            document.getElementById('result').innerHTML = 'Arranged Largest Value: ' + largestValueArrangement;
+        }
+    </script>
+</body>
+
+</html>
